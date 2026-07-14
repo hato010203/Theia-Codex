@@ -1,33 +1,29 @@
-Equipment System
+# Equipment System
 
-1. Philosophy
+Purpose
+- Foundation of combat architecture.
 
-2. Flow
-
+Pipeline
 Equipment
-↓
+→ EquipmentManager
+→ GripState
+→ CombatResolver
+→ CombatProfile
+→ AnimationResolver
+→ AnimationProfile
+→ SpriteLayer
 
-Equipment Manager
-↓
+Rules
+- Equipment never controls gameplay.
+- Resolver computes.
+- Profile stores.
+- Manager provides.
+- SpriteLayer reads AnimationProfile only.
 
-Grip
+Dependencies
+CombatResolver
+AnimationResolver
+EquipmentManager
 
-↓
-
-Combat Resolver
-
-↓
-
-Combat Profile
-
-↓
-
-Animation Resolver
-
-↓
-
-Animation Profile
-
-↓
-
-Sprite Layer
+Status
+Stable Design
