@@ -1,2 +1,34 @@
-# Theia-Codex
-Design documents and development knowledge base for Theia Action RPG.
+# THEIA
+
+Fantasy Action RPG
+
+---
+
+## Philosophy
+
+Freedom.
+Discovery.
+Wonder.
+
+---
+
+## Current Progress
+
+- Equipment System
+- Combat Resolver
+- Awakening System
+- Sprite Layering
+
+---
+
+## Documentation
+
+Architecture
+
+Gameplay
+
+World
+
+Characters
+
+ADR
