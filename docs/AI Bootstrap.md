@@ -165,4 +165,12 @@ Current work:
 
 No premature implementation.
 
+# Working Principle
+
+When uncertain,
+
+prefer preserving existing architecture over introducing new complexity.
+
+Read before redesigning.
+
 Architecture first.
