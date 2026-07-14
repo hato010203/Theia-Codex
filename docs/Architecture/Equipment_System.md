@@ -1,29 +1,25 @@
-# Equipment System
+Equipment System
 
-Purpose
-- Foundation of combat architecture.
+Goal
+Combat foundation.
 
-Pipeline
+Flow
 Equipment
-→ EquipmentManager
-→ GripState
+→ Manager
+→ Grip
 → CombatResolver
 → CombatProfile
 → AnimationResolver
 → AnimationProfile
-→ SpriteLayer
 
 Rules
-- Equipment never controls gameplay.
-- Resolver computes.
-- Profile stores.
-- Manager provides.
-- SpriteLayer reads AnimationProfile only.
+Manager = data
+Resolver = compute
+Profile = immutable result
 
-Dependencies
-CombatResolver
-AnimationResolver
-EquipmentManager
+Invalidation
+Equip
+Grip
 
-Status
-Stable Design
+Never
+actor.weapons()
