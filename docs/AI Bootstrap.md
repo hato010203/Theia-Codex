@@ -174,3 +174,19 @@ prefer preserving existing architecture over introducing new complexity.
 Read before redesigning.
 
 Architecture first.
+
+---
+
+## Reading Order
+
+1. AI_BOOTSTRAP.md
+
+2. HISTORY.md
+
+3. Docs/Development_Guidelines.md
+
+4. Docs/Concepts.md
+
+5. Relevant System documents
+
+Archive is reference-only.
